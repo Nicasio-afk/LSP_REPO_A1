@@ -1,8 +1,6 @@
 package org.howard.edu.lsp.midterm.question2;
 
-/**
- * A driver class to test the Book class functionality.
- */
+//A driver class to test the Book class functionality.
 public class BookDriver {
     public static void main(String[] args) {
         // Instantiate Book objects

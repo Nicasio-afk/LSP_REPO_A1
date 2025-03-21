@@ -1,8 +1,6 @@
 package org.howard.edu.lsp.midterm.question5;
 
-/**
- * Represents an audiobook with specific behaviors.
- */
+//Represents an audiobook.
 public class Audiobook implements Streamable {
     private String title;
 

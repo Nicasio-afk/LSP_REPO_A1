@@ -1,8 +1,6 @@
 package org.howard.edu.lsp.midterm.question5;
 
-/**
- * Represents a music track with specific behaviors.
- */
+//Represents a music tracks.
 public class Music implements Streamable {
     private String title;
 

@@ -1,11 +1,10 @@
 package org.howard.edu.lsp.midterm.question5;
 
-/**
- * A driver class to demonstrate the functionality of different media types.
- */
+//A driver class to demonstrate the functionalities of the various media.
+ 
 public class StreamingDriver {
     public static void main(String[] args) {
-        // Create instances of different media types
+        // Create instances of the different media
         Streamable music = new Music("Still a Friend - Incognito");
         Streamable movie = new Movies("Avengers End Game");
         Streamable audiobook = new Audiobook("A Promised Land by Barack Obama");
@@ -35,18 +34,15 @@ public class StreamingDriver {
         System.out.println();
 
         // Test unique behaviors for each media type
-        // Test Movie-specific behavior (rewind)
-        Movies movieWithRewind = (Movies) movie;  // Cast to Movie for specific method
+        Movies movieWithRewind = (Movies) movie;  
         movieWithRewind.rewind(30);
         System.out.println();
 
-        // Test Audiobook-specific behavior (setPlaybackSpeed)
-        Audiobook audiobookWithSpeed = (Audiobook) audiobook;  // Cast to Audiobook for specific method
+        Audiobook audiobookWithSpeed = (Audiobook) audiobook; 
         audiobookWithSpeed.setPlaybackSpeed(1.5);
         System.out.println();
 
-        // Test Music-specific behavior (addToPlaylist)
-        Music musicWithPlaylist = (Music) music;  // Cast to Music for specific method
+        Music musicWithPlaylist = (Music) music;  
         musicWithPlaylist.addToPlaylist("Favorites");
         System.out.println();
     }
