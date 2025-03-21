@@ -1,8 +1,7 @@
 package org.howard.edu.lsp.midterm.question5;
 
-/**
- * Represents a movie with specific behaviors.
- */
+//Represents a movie.
+
 public class Movies implements Streamable {
     private String title;
 

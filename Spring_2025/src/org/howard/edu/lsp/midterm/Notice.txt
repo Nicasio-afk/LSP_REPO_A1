@@ -1,0 +1,4 @@
+A combination of AI and GeeksForGeeks and the theory of lecture to navigate these questions. For eg. for question 2, 
+https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/ and AI aided in debugging my logic for my hashmap.
+Similarly for question 3, it aided in debugging my logic. For question 4, https://www.geeksforgeeks.org/overriding-in-java/
+and AI aided in method overriding errors.

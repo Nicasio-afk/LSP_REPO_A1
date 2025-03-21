@@ -1,8 +1,6 @@
 package org.howard.edu.lsp.midterm.question3;
 
-/**
- * A driver class to test the VotingMachine class functionality.
- */
+//A driver class to test the VotingMachine class functionality.
 public class VotingMachineDriver {
     public static void main(String[] args) {
         VotingMachine vm = new VotingMachine();
