@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="test.AppTest" time="0.068" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.138" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\nrvs1\AppData\Local\Temp\surefire5779909647599910367\surefirebooter-20250408183416979_3.jar C:\Users\nrvs1\AppData\Local\Temp\surefire5779909647599910367 2025-04-08T18-34-16_538-jvmRun1 surefire-20250408183416979_1tmp surefire_0-20250408183416979_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nrvs1\AppData\Local\Temp\surefire4739899137506955833\surefirebooter-20250408183936183_3.jar C:\Users\nrvs1\AppData\Local\Temp\surefire4739899137506955833 2025-04-08T18-39-35_936-jvmRun1 surefire-20250408183936183_1tmp surefire_0-20250408183936183_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\nrvs1\OneDrive\Desktop\LSP_REPO_A1\Spring_2025\src\org\howard\edu\lsp\assignment6\test\target\test-classes;C:\Users\nrvs1\OneDrive\Desktop\LSP_REPO_A1\Spring_2025\src\org\howard\edu\lsp\assignment6\test\target\classes;C:\Users\nrvs1\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\nrvs1\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\nrvs1\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\nrvs1\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nrvs1\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nrvs1\AppData\Local\Temp\surefire5779909647599910367\surefirebooter-20250408183416979_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nrvs1\AppData\Local\Temp\surefire4739899137506955833\surefirebooter-20250408183936183_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.14+7"/>
@@ -58,5 +58,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="test.AppTest" time="0.033"/>
+  <testcase name="testAdd" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.045"/>
+  <testcase name="testComplement" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.002"/>
+  <testcase name="testClear" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.007"/>
+  <testcase name="testUnion" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
+  <testcase name="testDiff" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
+  <testcase name="testToString" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.002"/>
+  <testcase name="testLargest" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.004"/>
+  <testcase name="testLargestException" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
+  <testcase name="testSmallest" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.002"/>
+  <testcase name="testContains" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
+  <testcase name="testSmallestException" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
+  <testcase name="testIntersect" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
+  <testcase name="testEquals" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
+  <testcase name="testLength" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
+  <testcase name="testIsEmpty" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.0"/>
+  <testcase name="testRemove" classname="org.howard.edu.lsp.assignment6.IntegerSetTest" time="0.001"/>
 </testsuite>

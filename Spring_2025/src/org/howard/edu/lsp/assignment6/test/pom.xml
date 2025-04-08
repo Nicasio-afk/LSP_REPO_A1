@@ -8,8 +8,6 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>test</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -66,8 +64,8 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.3.0</version>
           <configuration>
-            <!-- Specify where the tests are located -->
-            <testSourceDirectory>../src/main/java</testSourceDirectory> <!-- Relative path to your tests in assignment6 -->
+            <!-- Set the default test source directory -->
+            <testSourceDirectory>src/test/java</testSourceDirectory> <!-- Correct path for test classes -->
           </configuration>
         </plugin>
         <!-- Maven Jar Plugin -->

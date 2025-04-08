@@ -1,11 +1,12 @@
-package org.howard.edu.lsp.assignment6;
+package org.howard.edu.lsp.assignment6.test.src.test.java.test;
 
-import org.howard.edu.lsp.assignment6.IntegerSet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.howard.edu.lsp.assignment6.test.src.main.java.test.IntegerSet;
 
 /**
  * JUnit test class for IntegerSet.
