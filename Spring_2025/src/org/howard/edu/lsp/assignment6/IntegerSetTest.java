@@ -1,6 +1,6 @@
 package org.howard.edu.lsp.assignment6;
 
-import org.howard.edu.lsp.assignment5.IntegerSet;
+import org.howard.edu.lsp.assignment6.IntegerSet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
