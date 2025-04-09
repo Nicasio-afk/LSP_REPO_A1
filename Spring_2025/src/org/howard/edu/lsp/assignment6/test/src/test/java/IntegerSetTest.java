@@ -11,6 +11,8 @@ import org.howard.edu.lsp.assignment6.test.src.main.java.IntegerSet;
 /**
  * JUnit test class for IntegerSet.
  */
+//Code was written with the aid of https://codesignal.com/learn. This also applies to pom.xml
+
 public class IntegerSetTest {
 
     private IntegerSet set1;
