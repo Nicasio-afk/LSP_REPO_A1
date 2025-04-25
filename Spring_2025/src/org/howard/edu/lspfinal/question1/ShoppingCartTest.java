@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+//All code was done with the aid of Codesignal Learn AI.https://codesignal.com/learn/course-paths/8 
+
 @DisplayName("ShoppingCart Test Suite")
 class ShoppingCartTest {
 
